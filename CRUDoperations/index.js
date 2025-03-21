@@ -151,6 +151,8 @@ async function main() {
     // Question 20 Puri students collection drop karo bina database delete kiye.
 
     const dropStudent = await userCollection.drop();
+    console.log();
+
     console.log("drop data is sucessfully", dropStudent);
   } catch (error) {
     console.log(error);
